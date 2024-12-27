@@ -7,7 +7,13 @@ export default {
   ],
   theme: {
     container: {
-      padding: "5rem",
+      padding: {
+        DEFAULT: "3rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "rem",
+      },
     },
     extend: {
       colors: {
