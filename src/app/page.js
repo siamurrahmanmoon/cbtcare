@@ -1,4 +1,4 @@
-import HomeComp from "@/components/home.comp.js";
+import HomeComp from "@/components/home/home.comp.js";
 
 export default function Home() {
   return (
