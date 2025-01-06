@@ -14,18 +14,21 @@ const eslintConfig = [
   js.configs.recommended,
   ...compat.extends("next/core-web-vitals"),
   {
+    files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: "module",
-      parser: "espree",
-    },
-    rules: {
-      // Add your custom rules here
     },
     settings: {
       next: {
         rootDir: __dirname,
       },
+      react: {
+        version: "detect",
+      },
+    },
+    rules: {
+      // Add custom rules here if needed
     },
   },
 ];
