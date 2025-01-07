@@ -16,7 +16,7 @@ export default function Section4() {
               <h1 className="text-[35px] text-center font-bold z-20">
                 আমাদের সেবা সমূহ
               </h1>
-              <p className="xl:w-[60%] lg:w-[75%] xl:text-[16px] text-[13px] text-center font-normal text-secondary mt-[10px] z-20">
+              <p className="xl:w-[60%] lg:w-[75%] xl:text-[16px] min-[320px]:max-[1023px]:text-[12px] text-[13px] text-center font-normal text-secondary mt-[10px] mb-4 z-20">
                 অনলাইন ও অফলাইনে বিভিন্ন ধরনের মানসিক সমস্যাগ্রস্ত ব্যক্তিদের
                 সাইকোথেরাপী অর্থাৎ, চিকিৎসা মনোবৈজ্ঞানিক থেরাপি, পেশাজীবি
                 ট্রেনিং, কর্পোরেট ট্রেনিং, ওয়ার্কসপ, সেমিনার, ওয়েবিনার, চা চক্র,
@@ -43,7 +43,7 @@ export default function Section4() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute z-25 lg:w-[140px] lg:h-auto xl:w-[160px] xl:h-auto">
+                <div className="absolute z-25 lg:w-[140px] lg:h-auto xl:w-[160px] xl:h-auto min-[320px]:max-[1023px]:w-[120px] h-auto">
                   <Image
                     src={playButton}
                     alt="Play Button"
@@ -53,7 +53,7 @@ export default function Section4() {
               </div>
             </div>
             <div className="xl:mt-[20px] lg:mt-[0px] text-center">
-              <p className="text-[16px] text-secondary">
+              <p className="text-[16px] text-secondary min-[320px]:max-[1023px]:text-[12px] min-[320px]:max-[1023px]:mt-[20px]">
                 আমাদের ভিডিও দেখুন এবং জানুন কিভাবে আমরা আপনাকে সাহায্য করতে
                 পারি।
               </p>

@@ -9,7 +9,7 @@ export default function Section2() {
     <div>
       <section className="container justify-center items-center mx-auto mb-[80px]">
         {/* Section 2 */}
-        <div className="flex flex-row justify-center items-center gap-5 ">
+        <div className="flex flex-row min-[320px]:max-[1023px]:flex-col-reverse justify-center items-center gap-5 ">
           {/* Grid 1 */}
           <div>
             <div className="flex-row justify-center items-center z-10">

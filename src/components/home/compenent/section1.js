@@ -12,10 +12,10 @@ export default function Section1() {
         <div className="flex flex-col justify-center items-center">
           <div>
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[35px] text-center font-bold z-20">
+              <h1 className="min-[320px]:max-[1023px]:text-[35px] text-[35px] text-center font-bold z-20">
                 অনলাইন ও অফলাইন সেবা
               </h1>
-              <p className="xl:w-[60%] lg:w-[75%] text-[13px] xl:text-[16px] text-center font-normal text-secondary mt-[10px] z-20">
+              <p className="xl:w-[60%] lg:w-[75%] text-[13px] xl:text-[16px] min-[320px]:max-[1023px]:text-[12px] text-center font-normal text-secondary mt-[10px] z-20">
                 অনলাইন ও অফলাইনে বিভিন্ন ধরনের মানসিক সমস্যাগ্রস্ত ব্যক্তিদের
                 সাইকোথেরাপী অর্থাৎ, চিকিৎসা মনোবৈজ্ঞানিক থেরাপি, পেশাজীবি
                 ট্রেনিং, কর্পোরেট ট্রেনিং, ওয়ার্কসপ, সেমিনার, ওয়েবিনার, চা চক্র,
@@ -27,9 +27,9 @@ export default function Section1() {
           </div>
           {/* Image */}
           <div>
-            <div className="grid grid-cols-3 justify-center items-center mt-[50px] gap-[10px]">
+            <div className="grid grid-cols-3 min-[320px]:max-[1023px]:grid-cols-1 min-[320px]:max-[1023px]:w-screen min-[320px]:max-[1023px]:px-[3%] justify-center items-center mt-[50px] gap-[10px]">
               <div className="group hover:ring-2 transform transition duration-300 ease-in-out ring-[#C0E9DB] rounded-[10px]">
-                <div className="relative 2xl:w-[420px] xl:w-[350px] lg:w-[290px] md:w-[340px] h-[250px] overflow-hidden rounded-[10px]">
+                <div className="relative min-[320px]:max-[1023px]:w-full 2xl:w-[420px] xl:w-[350px] lg:w-[290px] h-[250px] overflow-hidden rounded-[10px]">
                   <Image
                     src={GalleryImage1}
                     alt="Hero Image"

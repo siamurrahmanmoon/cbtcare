@@ -12,18 +12,18 @@ export default function Hero() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="container justify-between items-center mx-auto">
+      <section className="container justify-between items-center mx-auto min-[320px]:max-[1023px]:overflow-hidden">
         <div>
           {/* Hero Section */}
           <div className="mt-[10px] mb-[10px]">
             <div>
-              <div className="w-[420px] h-[420px] lg:w-[390px] rounded-full bg-[#23B195] blur-[180px] absolute top-[140px] left-[180px] z-0"></div>
-              <div className="w-[320px] h-[320px] lg:w-[290px] rounded-full bg-[#23B195] blur-[180px] absolute top-[140px] right-[180px] z-0"></div>
+              <div className="w-[420px] h-[420px] lg:w-[390px] rounded-full bg-[#23B195] blur-[180px] absolute top-[140px] left-[180px] z-0 min-[320px]:max-[1023px]:right-[190px] min-[320px]:max-[1023px]:left-[0px] "></div>
+              <div className="w-[320px] h-[320px] lg:w-[290px] rounded-full bg-[#23B195] blur-[180px] absolute top-[140px] right-[180px] z-0  "></div>
               <div className="w-[620px] h-[620px] lg:w-[90px] rounded-full bg-[#23B195] blur-[190px] absolute top-[360px] right-[655px] z-0"></div>
             </div>
-            <div className="flex flex-row justify-between items-center ">
+            <div className="flex flex-row justify-between items-center min-[320px]:max-[1023px]:flex-col-reverse ">
               <div className="flex-row lg:basis-3/5 xl:basis-2/5 justify-center items-center z-10">
-                <div className="mt-[70px]">
+                <div className="mt-[70px] min-[320px]:max-[1023px]:mt-[70px]">
                   <div>
                     <h1 className="text-[45px] font-poppins font-bold">
                       মানসিক স্বাস্থ্যসেবা এখন সবার কাছে
@@ -86,8 +86,8 @@ export default function Hero() {
                 </div>
               </div>
               {/* Hero Image */}
-              <div className="flex flex-col justify-center items-end lg:basis-2/5 xl:basis-3/5 z-10">
-                <div className="w-[490px] h-[490px] z-10 ">
+              <div className="flex flex-col justify-center items-end lg:basis-2/5 xl:basis-3/5 z-10 min-[320px]:max-[1023px]:hidden ">
+                <div className="w-[490px] h-auto z-10 min-[320px]:max-[1023px]:w-full ">
                   <div>
                     <Image
                       src={HeroImage}
@@ -97,7 +97,7 @@ export default function Hero() {
                   </div>
                 </div>
                 {/* Hero Button */}
-                <div className="flex justify-center items-center mt-[-20px] group">
+                <div className="flex justify-center items-center mt-[-20px] group min-[320px]:max-[1023px]:hidden ">
                   <Image
                     src={HeroButton}
                     alt="Hero Button"
