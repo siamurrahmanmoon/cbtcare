@@ -3,7 +3,7 @@ import Image from "next/image";
 
 // Gallery Images
 import playButton from "@/assets/icon/playbutton.svg";
-import VideoImage from "@/assets/image/videoImage.jpg";
+import VideoImage from "@/assets/galleryimage/imagegallery5.jpeg";
 
 export default function Section4() {
   return (
@@ -13,23 +13,19 @@ export default function Section4() {
         <div className="flex flex-col justify-center items-center">
           <div>
             <div className="flex flex-col justify-center items-center">
-              <h1 className="text-[35px] text-center font-bold z-20">
-                আমাদের সেবা সমূহ
+              <h1 className="text-[35px] min-[320px]:max-[1023px]:text-[28px] text-center font-bold z-20">
+                আপনার গল্প আমাদের সমাধান
               </h1>
-              <p className="xl:w-[60%] lg:w-[75%] xl:text-[16px] min-[320px]:max-[1023px]:text-[12px] text-[13px] text-center font-normal text-secondary mt-[10px] mb-4 z-20">
-                অনলাইন ও অফলাইনে বিভিন্ন ধরনের মানসিক সমস্যাগ্রস্ত ব্যক্তিদের
-                সাইকোথেরাপী অর্থাৎ, চিকিৎসা মনোবৈজ্ঞানিক থেরাপি, পেশাজীবি
-                ট্রেনিং, কর্পোরেট ট্রেনিং, ওয়ার্কসপ, সেমিনার, ওয়েবিনার, চা চক্র,
-                ব্যক্তিগত, পারিবারিক ও সামাজিক সম্পর্ক বিষয়ক মানসিক ও আবেগীয়
-                সমস্যা, ওয়ান-টু-ওয়ান ও গ্রুপ সাইকোথেরাপী ইত্যাদি বিষয়ে সমন্বিত
-                চিকিৎসা ব্যবস্খাপনা রয়েছে।
+              <p className="xl:w-[70%] lg:w-[70%] xl:text-[16px] min-[320px]:max-[1023px]:text-[12px] min-[320px]:max-[1023px]:w-[93%] text-[16px] text-center font-normal text-secondary mt-[10px] mb-4 z-20">
+                ভিডিওর মাধ্যমে জানুন আমাদের সেবা কিভাবে আপনার জীবনের মানসিক চাপ
+                হ্রাস করে আপনাকে নতুন সম্ভাবনার দিকে এগিয়ে নিতে পারে।
               </p>
             </div>
           </div>
           {/* Video */}
           <div>
             <div className="xl:mt-[30px] xl:mb-[30px] lg:mt-[20px] lg:mb-[20px]">
-              <div className="flex items-center justify-center w-full lg:h-auto xl:h-auto rounded-[15px] overflow-hidden group">
+              <div className="flex items-center justify-center w-full rounded-[15px] pl-[8%] pr-[8%] lg:h-[580px] xl:h-[580px] overflow-hidden group">
                 <div className="flex items-center justify-center bg-[#0C352B] group-hover:bg-[#0C352B] transition-all duration-300">
                   <div className="absulute z-15 opacity-70 group-hover:opacity-60 transition-all duration-300">
                     <div className="">
@@ -43,7 +39,15 @@ export default function Section4() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute z-25 lg:w-[140px] lg:h-auto xl:w-[160px] xl:h-auto min-[320px]:max-[1023px]:w-[120px] h-auto">
+                <div
+                  onClick={() => {
+                    window.open(
+                      "https://www.facebook.com/watch/?v=637307542058043&rdid=xBkixEnUvRuaihve",
+                      "_blank"
+                    );
+                  }}
+                  className="absolute z-25 lg:w-[140px] lg:h-auto xl:w-[160px] xl:h-auto min-[320px]:max-[1023px]:w-[120px] h-auto"
+                >
                   <Image
                     src={playButton}
                     alt="Play Button"

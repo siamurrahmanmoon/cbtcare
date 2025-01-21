@@ -2,7 +2,12 @@
 import Image from "next/image";
 
 // Gallery Images
-import GalleryImage1 from "@/assets/photo/gallaryphoto1.jpg";
+import GalleryImage1 from "@/assets/galleryimage/imagegallery1.jpg";
+import GalleryImage2 from "@/assets/galleryimage/imagegallery2.jpg";
+import GalleryImage3 from "@/assets/galleryimage/imagegallery3.jpg";
+import GalleryImage4 from "@/assets/galleryimage/imagegallery4.jpeg";
+import GalleryImage5 from "@/assets/galleryimage/imagegallery5.jpeg";
+import GalleryImage6 from "@/assets/galleryimage/imagegallery6.jpeg";
 
 export default function Section1() {
   return (
@@ -12,16 +17,12 @@ export default function Section1() {
         <div className="flex flex-col justify-center items-center">
           <div>
             <div className="flex flex-col justify-center items-center">
-              <h1 className="min-[320px]:max-[1023px]:text-[35px] text-[35px] text-center font-bold z-20">
-                অনলাইন ও অফলাইন সেবা
+              <h1 className="min-[320px]:max-[1023px]:text-[28px] text-[35px] text-center font-bold z-20">
+                অনলাইন ও অফলাইন চিকিৎসা মনোবৈজ্ঞানিক সেবা
               </h1>
-              <p className="xl:w-[60%] lg:w-[75%] text-[13px] xl:text-[16px] min-[320px]:max-[1023px]:text-[12px] text-center font-normal text-secondary mt-[10px] z-20">
-                অনলাইন ও অফলাইনে বিভিন্ন ধরনের মানসিক সমস্যাগ্রস্ত ব্যক্তিদের
-                সাইকোথেরাপী অর্থাৎ, চিকিৎসা মনোবৈজ্ঞানিক থেরাপি, পেশাজীবি
-                ট্রেনিং, কর্পোরেট ট্রেনিং, ওয়ার্কসপ, সেমিনার, ওয়েবিনার, চা চক্র,
-                ব্যক্তিগত, পারিবারিক ও সামাজিক সম্পর্ক বিষয়ক মানসিক ও আবেগীয়
-                সমস্যা, ওয়ান-টু-ওয়ান ও গ্রুপ সাইকোথেরাপী ইত্যাদি বিষয়ে সমন্বিত
-                চিকিৎসা ব্যবস্খাপনা রয়েছে এই CBT CARE এ।
+              <p className="xl:w-[95%] lg:w-[95%] text-[13px] xl:text-[16px] min-[320px]:max-[1023px]:text-[16px] text-center font-normal text-secondary mt-[10px] z-20">
+                ঢাকা বিশ্ববিদ্যালয় থেকে এমফিল ও পিএইচডি ডিগ্রিপ্রাপ্ত
+                ক্লিনিক্যাল সাইকোলজিস্ট দ্বারা পরিচালিত।
               </p>
             </div>
           </div>
@@ -38,7 +39,7 @@ export default function Section1() {
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      অনলাইন ও অফলাইন সেবা
+                      ইনডিভিজুয়াল ‍সাইকোথেরাপি
                     </h1>
                   </div>
                 </div>
@@ -46,14 +47,14 @@ export default function Section1() {
               <div className="group hover:ring-2 transform transition duration-300 ease-in-out ring-[#C0E9DB] rounded-[10px]">
                 <div className="relative w-full h-[250px] overflow-hidden rounded-[10px]">
                   <Image
-                    src={GalleryImage1}
+                    src={GalleryImage2}
                     alt="Hero Image"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      অনলাইন ও অফলাইন সেবা
+                      গ্রুপ সাইকোথেরাপি
                     </h1>
                   </div>
                 </div>
@@ -61,14 +62,14 @@ export default function Section1() {
               <div className="group hover:ring-2 transform transition duration-300 ease-in-out ring-[#C0E9DB] rounded-[10px]">
                 <div className="relative w-full h-[250px] overflow-hidden rounded-[10px]">
                   <Image
-                    src={GalleryImage1}
+                    src={GalleryImage3}
                     alt="Hero Image"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      অনলাইন ও অফলাইন সেবা
+                      ফ্যামলি থেরাপি
                     </h1>
                   </div>
                 </div>
@@ -76,14 +77,14 @@ export default function Section1() {
               <div className="group hover:ring-2 transform transition duration-300 ease-in-out ring-[#C0E9DB] rounded-[10px]">
                 <div className="relative w-full h-[250px] overflow-hidden rounded-[10px]">
                   <Image
-                    src={GalleryImage1}
+                    src={GalleryImage4}
                     alt="Hero Image"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      অনলাইন ও অফলাইন সেবা
+                      প্যারেন্টস এবং টিচার্স কাউন্সেলিং
                     </h1>
                   </div>
                 </div>
@@ -91,14 +92,14 @@ export default function Section1() {
               <div className="group hover:ring-2 transform transition duration-300 ease-in-out ring-[#C0E9DB] rounded-[10px]">
                 <div className="relative w-full h-[250px] overflow-hidden rounded-[10px]">
                   <Image
-                    src={GalleryImage1}
+                    src={GalleryImage5}
                     alt="Hero Image"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      অনলাইন ও অফলাইন সেবা
+                      করপোরেট সাইকোথেরাপি
                     </h1>
                   </div>
                 </div>
@@ -106,14 +107,14 @@ export default function Section1() {
               <div className="group hover:ring-2 transform transition duration-300 ease-in-out ring-[#C0E9DB] rounded-[10px]">
                 <div className="relative w-full h-[250px] overflow-hidden rounded-[10px]">
                   <Image
-                    src={GalleryImage1}
+                    src={GalleryImage6}
                     alt="Hero Image"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      অনলাইন ও অফলাইন সেবা
+                      বেসিক কাউন্সেলিং / সাইকোথেরাপি ট্রেনিং, ওয়ার্কস
                     </h1>
                   </div>
                 </div>

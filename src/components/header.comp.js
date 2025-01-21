@@ -21,8 +21,11 @@ export default function Header() {
               </ul>
             </div>
           </div>
-          <div className="mt-[10px] text-[15px] bg-[#C0E9DB] text-[#0F4433] font-medium px-[25px] min-[320px]:max-[1023px]:px-[20px] py-[8px] rounded-[100px] ">
-            <button>Contact </button>
+          <div
+            onClick={() => window.open("tel:+8801716093998")}
+            className="min-[320px]:max-[1023px]:text-[12px] font-bold text-[15px] bg-[#C0E9DB] text-[#0F4433] px-[25px] min-[320px]:max-[1023px]:px-[20px] py-[8px] rounded-[100px] "
+          >
+            <button> অ্যাপয়েন্টমেন্ট বুক করুন</button>
           </div>
         </div>
       </header>

@@ -55,7 +55,14 @@ export default function Hero() {
                 {/* Social Icons */}
                 <div>
                   <div className="flex flex-row gap-[20px] justify-start items-center mt-[10px] ">
-                    <div>
+                    <div
+                      onClick={() =>
+                        window.open(
+                          "https://www.facebook.com/cbtcare.net",
+                          "_blank"
+                        )
+                      }
+                    >
                       <Image
                         src={FacebookIcon}
                         alt="Facebook Icon"
@@ -64,16 +71,16 @@ export default function Hero() {
                         className="hover:scale-110 transition-transform duration-500 ease-in-out cursor-pointer"
                       />
                     </div>
-                    <div>
+                    <div onClick={() => window.open("tel:+8801716093998")}>
                       <Image
                         src={PhoneIcon}
-                        alt="Facebook Icon"
+                        alt="Phone Icon"
                         width={50}
                         height={50}
                         className="hover:scale-110 transition-transform duration-500 ease-in-out cursor-pointer"
                       />
                     </div>
-                    <div>
+                    <div onClick={() => window.open("tel:+8801716093998")}>
                       <Image
                         src={WatsappIcon}
                         alt="Facebook Icon"
@@ -97,7 +104,10 @@ export default function Hero() {
                   </div>
                 </div>
                 {/* Hero Button */}
-                <div className="flex justify-center items-center mt-[-20px] group min-[320px]:max-[1023px]:hidden ">
+                <div
+                  onClick={() => window.open("tel:+8801716093998")}
+                  className="flex justify-center items-center mt-[-20px] group min-[320px]:max-[1023px]:hidden "
+                >
                   <Image
                     src={HeroButton}
                     alt="Hero Button"
