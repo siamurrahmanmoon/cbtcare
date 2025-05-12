@@ -1,12 +1,18 @@
 "use client";
 import Image from "next/image";
-import HeroImage from "@/assets/image/HeroImage.svg";
+// import HeroImage from "@/assets/image/HeroImage.svg";
 
 // Icons
 import FacebookIcon from "@/assets/icon/facebook.svg";
 import PhoneIcon from "@/assets/icon/phone.svg";
 import WatsappIcon from "@/assets/icon/watsapp.svg";
-import HeroButton from "@/assets/icon/herobutton.svg";
+// import HeroButton from "@/assets/icon/herobutton.svg";
+
+const HeroImage =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747079305/HeroImage_q38o24.svg";
+
+const HeroButton =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747079727/herobutton_vbb5sj.svg";
 
 export default function Hero() {
   return (
@@ -99,6 +105,8 @@ export default function Hero() {
                     <Image
                       src={HeroImage}
                       alt="Hero Image"
+                      width={490}
+                      height={490}
                       className="h-full w-full"
                     />
                   </div>

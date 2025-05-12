@@ -2,12 +2,25 @@
 import Image from "next/image";
 
 // Gallery Images
-import GalleryImage1 from "@/assets/galleryimage/imagegallery1.jpg";
-import GalleryImage2 from "@/assets/galleryimage/imagegallery2.jpg";
-import GalleryImage3 from "@/assets/galleryimage/imagegallery3.jpg";
-import GalleryImage4 from "@/assets/galleryimage/imagegallery4.jpeg";
-import GalleryImage5 from "@/assets/galleryimage/imagegallery5.jpeg";
-import GalleryImage6 from "@/assets/galleryimage/imagegallery6.jpeg";
+// import GalleryImage1 from "@/assets/galleryimage/imagegallery2.jpg";
+// import GalleryImage2 from "@/assets/galleryimage/imagegallery1.jpg";
+// import GalleryImage3 from "@/assets/galleryimage/imagegallery3.jpg";
+// import GalleryImage4 from "@/assets/galleryimage/imagegallery4.jpeg";
+// import GalleryImage5 from "@/assets/galleryimage/imagegallery5.jpeg";
+// import GalleryImage6 from "@/assets/galleryimage/imagegallery6.jpeg";
+
+const GalleryImage1 =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747078814/imagegallery2_g42dqu.jpg";
+const GalleryImage2 =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747078814/imagegallery1_lqkvwc.jpg";
+const GalleryImage3 =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747080411/medium-shot-therapist-discussing-with-family_uys1lq.jpg";
+const GalleryImage4 =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747078813/imagegallery4_qvdt80.jpg";
+const GalleryImage5 =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747078813/imagegallery5_adnebc.jpg";
+const GalleryImage6 =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747078813/imagegallery6_x3suvw.jpg";
 
 export default function Section1() {
   return (
@@ -33,6 +46,7 @@ export default function Section1() {
                 <div className="relative min-[320px]:max-[1023px]:w-full 2xl:w-[420px] xl:w-[350px] lg:w-[290px] h-[250px] overflow-hidden rounded-[10px]">
                   <Image
                     src={GalleryImage1}
+                    fill
                     alt="Hero Image"
                     className="absolute inset-0 w-full h-full object-cover"
                   />
@@ -49,6 +63,7 @@ export default function Section1() {
                   <Image
                     src={GalleryImage2}
                     alt="Hero Image"
+                    fill
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
@@ -64,6 +79,7 @@ export default function Section1() {
                   <Image
                     src={GalleryImage3}
                     alt="Hero Image"
+                    fill
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
@@ -79,6 +95,7 @@ export default function Section1() {
                   <Image
                     src={GalleryImage4}
                     alt="Hero Image"
+                    fill
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
@@ -94,6 +111,7 @@ export default function Section1() {
                   <Image
                     src={GalleryImage5}
                     alt="Hero Image"
+                    fill
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
@@ -109,12 +127,13 @@ export default function Section1() {
                   <Image
                     src={GalleryImage6}
                     alt="Hero Image"
+                    fill
                     className="absolute inset-0 w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-[#0C352B] bg-opacity-70 group-hover:bg-opacity-90 transform transition duration-400 ease-in-out"></div>
                   <div className="absolute inset-0 flex justify-center items-center">
                     <h1 className="text-[20px] text-center font-bold p-[5%] group-hover:text-[22px] transform transition duration-800 ease-in-out ">
-                      বেসিক কাউন্সেলিং / সাইকোথেরাপি ট্রেনিং, ওয়ার্কস
+                      বেসিক কাউন্সেলিং / সাইকোথেরাপি ট্রেনিং, ওয়ার্কসপ
                     </h1>
                   </div>
                 </div>

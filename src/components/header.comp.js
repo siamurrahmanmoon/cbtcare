@@ -13,13 +13,13 @@ export default function Header() {
             <div className="w-[160px] h-auto min-[320px]:max-[1023px]:w-[120px] ">
               <Image src={Logo} alt="Logo" />
             </div>
-            <div className="pl-[50px] pt-[10px]">
+            {/* <div className="pl-[50px] pt-[10px]">
               <ul className="flex flex-row justify-between items-center gap-5 text-center min-[320px]:max-[1023px]:hidden">
                 <li>Home</li>
                 <li>About</li>
                 <li>Gallery</li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div
             onClick={() => window.open("tel:+8801716093998")}

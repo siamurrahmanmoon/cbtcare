@@ -2,7 +2,10 @@
 import Image from "next/image";
 
 // Image
-import HeroImage from "@/assets/image/section3image.svg";
+// import HeroImage from "@/assets/image/section3image.svg";
+
+const HeroImage =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747079293/section3image_zsd7i1.svg";
 
 export default function Section3() {
   return (
@@ -18,6 +21,8 @@ export default function Section3() {
                   <Image
                     src={HeroImage}
                     alt="Hero Image"
+                    width={500}
+                    height={500}
                     className="h-full w-full"
                   />
                 </div>

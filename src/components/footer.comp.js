@@ -22,6 +22,16 @@ export default function Footer() {
             <p className="text-sm text-center text-white mt-[-15px]">
               © 2023 CBT Care. All rights reserved.
             </p>
+            <p className="text-sm text-center text-white mt-[5px]">
+              ডুফা সেন্টার, বাড়ী নং-৯ (৫ম তলা), রোড- ২/২, ব্লক- এল, বনানী,
+              ঢাকা-১২১৩
+            </p>
+            <div className="text-sm text-center text-white mt-[5px]">
+              <div className="flex flex-row justify-center items-center gap-2">
+                <p>ফোন: ০১৭১৬০৯৩৯৯৮</p>
+                <p>ইমেইল: cbctcare2002@gmail.com</p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>

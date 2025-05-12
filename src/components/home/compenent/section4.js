@@ -3,7 +3,10 @@ import Image from "next/image";
 
 // Gallery Images
 import playButton from "@/assets/icon/playbutton.svg";
-import VideoImage from "@/assets/galleryimage/imagegallery5.jpeg";
+// import VideoImage from "@/assets/galleryimage/imagegallery5.jpeg";
+
+const VideoImage =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747078813/imagegallery5_adnebc.jpg";
 
 export default function Section4() {
   return (

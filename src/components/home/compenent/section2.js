@@ -2,7 +2,10 @@
 import Image from "next/image";
 
 // Image
-import HeroImage from "@/assets/image/section2image.svg";
+// import HeroImage from "@/assets/image/section2image.svg";
+
+const HeroImage =
+  "https://res.cloudinary.com/dfkv8g7xa/image/upload/v1747079293/section2image_pt6knc.svg";
 
 export default function Section2() {
   return (
@@ -41,7 +44,10 @@ export default function Section2() {
                 </div>
               </div>
               <div className="mt-[40px]">
-                <button className="bg-[#C0E9DB] text-[#0F4433] font-poppins font-bold text-[15px] py-[15px] px-[30px] rounded-[60px]">
+                <button
+                  onClick={() => window.open("tel:+8801716093998")}
+                  className="bg-[#C0E9DB] text-[#0F4433] font-poppins font-bold text-[15px] py-[15px] px-[30px] rounded-[60px]"
+                >
                   অ্যাপয়েন্টমেন্ট বুক করুন
                 </button>
               </div>
@@ -56,6 +62,8 @@ export default function Section2() {
                   <Image
                     src={HeroImage}
                     alt="Hero Image"
+                    width={500}
+                    height={500}
                     className="h-full w-full"
                   />
                 </div>
