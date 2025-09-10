@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 // Gallery Images
-import playButton from "@/assets/icon/playbutton.svg";
+import playButton from "@/assets/icon/playButton.svg";
 // import VideoImage from "@/assets/galleryimage/imagegallery5.jpeg";
 
 const VideoImage =
